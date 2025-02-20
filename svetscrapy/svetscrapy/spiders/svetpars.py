@@ -1,6 +1,5 @@
 import scrapy
 
-
 class SvetparsSpider(scrapy.Spider):
     name = "svetpars"
     allowed_domains = ["https://divan.ru"]
